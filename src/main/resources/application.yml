@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: itoken-admin
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+  cloud:
+    config:
+      uri: http:lcoalhost:8888
+      name: itoken-admin
+      label: master
+      profile: dev
