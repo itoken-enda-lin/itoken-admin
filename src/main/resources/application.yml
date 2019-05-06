@@ -7,7 +7,10 @@ spring:
         url: http://localhost:8084
   cloud:
     config:
-      uri: http:lcoalhost:8888
+      uri: http://lcoalhost:8888
       name: itoken-admin
       label: master
       profile: dev
+
+server:
+  port: 8084
