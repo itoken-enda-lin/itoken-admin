@@ -56,7 +56,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.enda.spring_cloud_admin.SpringCloudAdminApplication</mainClass>
+                    <mainClass>com.enda.admin.AdminApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
