@@ -8,4 +8,4 @@ RUN cd /itoken \
 
 ENTRYPOINT [ "java", "-jar", "/itoken/target/itoken-admin-1.0.0-SNAPSHOT.jar" ]
 
-EXPOSE 8888
+EXPOSE 8084
