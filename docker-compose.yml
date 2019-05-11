@@ -1,0 +1,8 @@
+version: "3.1"
+services:
+  itoken-config:
+    restart: always
+    image: itoken-admin
+    container_name: itoken-admin
+    ports:
+      - 8084:8084
