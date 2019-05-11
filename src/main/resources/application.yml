@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      uri: http://172.28.7.32:8888
+      uri: http://172.28.7.47:8888
       name: itoken-admin
       label: master
       profile: dev
